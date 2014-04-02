@@ -1,0 +1,313 @@
+/* line 17, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/loader1.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+}
+
+/* line 15, ../sass/loader1.scss */
+.loader {
+  top: 50%;
+  left: 50%;
+  margin-left: -16px;
+  margin-top: -16px;
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+/* ooo, css circles*/
+/* line 28, ../sass/loader1.scss */
+.dot {
+  position: absolute;
+  display: block;
+  border-radius: 4px;
+  width: 8px;
+  height: 8px;
+  -webkit-animation: dotAnim 2.5s 0s infinite, enter-west 2.5s 0s infinite;
+          animation: dotAnim 2.5s 0s infinite, enter-west 2.5s 0s infinite;
+}
+
+/* line 37, ../sass/loader1.scss */
+.dot + .dot {
+  margin-left: 8px;
+  -webkit-animation: dotAnim 2.5s 0s infinite, enter-north 2.5s 0s infinite;
+          animation: dotAnim 2.5s 0s infinite, enter-north 2.5s 0s infinite;
+}
+
+/* line 42, ../sass/loader1.scss */
+.dot + .dot + .dot {
+  margin-top: 8px;
+  margin-left: 8px;
+  -webkit-animation: dotAnim 2.5s 0s infinite, enter-east 2.5s 0s infinite;
+          animation: dotAnim 2.5s 0s infinite, enter-east 2.5s 0s infinite;
+}
+
+/* line 48, ../sass/loader1.scss */
+.dot + .dot + .dot + .dot {
+  margin-left: 0;
+  margin-top: 8px;
+  -webkit-animation: dotAnim 2.5s infinite 0s, enter-south 2.5s 0s infinite;
+          animation: dotAnim 2.5s infinite 0s, enter-south 2.5s 0s infinite;
+}
+
+@-webkit-keyframes "dotAnim" {
+  /* line 59, ../sass/loader1.scss */
+  0% {
+    background-color: transparent;
+  }
+
+  /* line 63, ../sass/loader1.scss */
+  33%, 67% {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  /* line 67, ../sass/loader1.scss */
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes "dotAnim" {
+  /* line 59, ../sass/loader1.scss */
+  0% {
+    background-color: transparent;
+  }
+
+  /* line 63, ../sass/loader1.scss */
+  33%, 67% {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  /* line 67, ../sass/loader1.scss */
+  100% {
+    background-color: transparent;
+  }
+}
+
+@-webkit-keyframes "enter-west" {
+  /* line 74, ../sass/loader1.scss */
+  0% {
+    -webkit-transform: translateX(-100px) scale(0.1);
+            transform: translateX(-100px) scale(0.1);
+  }
+
+  /* line 78, ../sass/loader1.scss */
+  33%, 67% {
+    -webkit-transform: translateX(0) scale(1);
+            transform: translateX(0) scale(1);
+  }
+
+  /* line 82, ../sass/loader1.scss */
+  100% {
+    -webkit-transform: translateX(100px) scale(0.1);
+            transform: translateX(100px) scale(0.1);
+  }
+}
+
+@keyframes "enter-west" {
+  /* line 74, ../sass/loader1.scss */
+  0% {
+    -webkit-transform: translateX(-100px) scale(0.1);
+            transform: translateX(-100px) scale(0.1);
+  }
+
+  /* line 78, ../sass/loader1.scss */
+  33%, 67% {
+    -webkit-transform: translateX(0) scale(1);
+            transform: translateX(0) scale(1);
+  }
+
+  /* line 82, ../sass/loader1.scss */
+  100% {
+    -webkit-transform: translateX(100px) scale(0.1);
+            transform: translateX(100px) scale(0.1);
+  }
+}
+
+@-webkit-keyframes "enter-east" {
+  /* line 88, ../sass/loader1.scss */
+  0% {
+    -webkit-transform: translateX(100px) scale(0.1);
+            transform: translateX(100px) scale(0.1);
+  }
+
+  /* line 92, ../sass/loader1.scss */
+  33%, 67% {
+    -webkit-transform: translateX(0) scale(1);
+            transform: translateX(0) scale(1);
+  }
+
+  /* line 96, ../sass/loader1.scss */
+  100% {
+    -webkit-transform: translateX(-100px) scale(0.1);
+            transform: translateX(-100px) scale(0.1);
+  }
+}
+
+@keyframes "enter-east" {
+  /* line 88, ../sass/loader1.scss */
+  0% {
+    -webkit-transform: translateX(100px) scale(0.1);
+            transform: translateX(100px) scale(0.1);
+  }
+
+  /* line 92, ../sass/loader1.scss */
+  33%, 67% {
+    -webkit-transform: translateX(0) scale(1);
+            transform: translateX(0) scale(1);
+  }
+
+  /* line 96, ../sass/loader1.scss */
+  100% {
+    -webkit-transform: translateX(-100px) scale(0.1);
+            transform: translateX(-100px) scale(0.1);
+  }
+}
+
+@-webkit-keyframes "enter-north" {
+  /* line 102, ../sass/loader1.scss */
+  0% {
+    -webkit-transform: translateY(-100px) scale(0.1);
+            transform: translateY(-100px) scale(0.1);
+  }
+
+  /* line 106, ../sass/loader1.scss */
+  33%, 67% {
+    -webkit-transform: translateY(0) scale(1);
+            transform: translateY(0) scale(1);
+  }
+
+  /* line 110, ../sass/loader1.scss */
+  100% {
+    -webkit-transform: translateY(100px) scale(0.1);
+            transform: translateY(100px) scale(0.1);
+  }
+}
+
+@keyframes "enter-north" {
+  /* line 102, ../sass/loader1.scss */
+  0% {
+    -webkit-transform: translateY(-100px) scale(0.1);
+            transform: translateY(-100px) scale(0.1);
+  }
+
+  /* line 106, ../sass/loader1.scss */
+  33%, 67% {
+    -webkit-transform: translateY(0) scale(1);
+            transform: translateY(0) scale(1);
+  }
+
+  /* line 110, ../sass/loader1.scss */
+  100% {
+    -webkit-transform: translateY(100px) scale(0.1);
+            transform: translateY(100px) scale(0.1);
+  }
+}
+
+@-webkit-keyframes "enter-south" {
+  /* line 116, ../sass/loader1.scss */
+  0% {
+    -webkit-transform: translateY(100px) scale(0.1);
+            transform: translateY(100px) scale(0.1);
+  }
+
+  /* line 120, ../sass/loader1.scss */
+  33%, 67% {
+    -webkit-transform: translateY(0) scale(1);
+            transform: translateY(0) scale(1);
+  }
+
+  /* line 124, ../sass/loader1.scss */
+  100% {
+    -webkit-transform: translateY(-100px) scale(0.1);
+            transform: translateY(-100px) scale(0.1);
+  }
+}
+
+@keyframes "enter-south" {
+  /* line 116, ../sass/loader1.scss */
+  0% {
+    -webkit-transform: translateY(100px) scale(0.1);
+            transform: translateY(100px) scale(0.1);
+  }
+
+  /* line 120, ../sass/loader1.scss */
+  33%, 67% {
+    -webkit-transform: translateY(0) scale(1);
+            transform: translateY(0) scale(1);
+  }
+
+  /* line 124, ../sass/loader1.scss */
+  100% {
+    -webkit-transform: translateY(-100px) scale(0.1);
+            transform: translateY(-100px) scale(0.1);
+  }
+}
