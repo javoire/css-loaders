@@ -1,6 +1,6 @@
 {
   "name": "css-loaders",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A collection of css loaders",
   "main": "lingon.js",
   "repository": {
