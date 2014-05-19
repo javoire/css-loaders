@@ -16,7 +16,7 @@ bower install css-loaders
 In your less file, include the loader you want. E.g.
 
 ```less
-@import "../bower_components/css-loaders/source/loader1.less
+@import "../bower_components/css-loaders/source/loader1.less"
 ```
 
 And check the demo file for the required markup. In this case:
