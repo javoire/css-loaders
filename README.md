@@ -10,3 +10,19 @@ a project to quickly prototype css loaders
 ```
 bower install css-loaders
 ```
+
+## Use
+
+In your less file, include the loader you want. E.g.
+
+```less
+@import "../bower_components/css-loaders/source/loader1.less
+```
+
+And check the demo file for the required markup. In this case:
+
+```
+../bower_components/css-loaders/source/loader1-demo.html
+```
+
+Usually, the parent element of the ```.loader``` div should have ```position: relative;``` set since the loaders are set to ```position: absolute; ```
