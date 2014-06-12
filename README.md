@@ -41,3 +41,11 @@ Which contains:
 ```
 
 Usually, the parent element of the ```.loader``` div should have ```position: relative;``` set since the loaders are set to ```position: absolute; ```, so that they'll show up in the right position on the page.
+
+## Configure
+
+To change the color of the loader, override the less color variable before the import:
+```
+@css-loader-color: rgba(255,0,0,0.5);
+@import "../bower_components/css-loaders/source/loader1.less";
+```
