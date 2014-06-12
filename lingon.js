@@ -2,7 +2,10 @@
 
 var lingon = require('lingon'),
     less = require('gulp-less'),
-    prefix = require('gulp-autoprefixer');
+    prefix = require('gulp-autoprefixer'),
+    lingonWatch = require('lingon-watch');
+
+lingonWatch(lingon);
 
 lingon.sourcePath = 'source';
 lingon.buildPath = 'dist';
