@@ -14,8 +14,9 @@
   },
   "homepage": "https://github.com/javoire/css-loaders",
   "devDependencies": {
-    "lingon": "~0.8.2",
     "gulp-autoprefixer": "0.0.7",
-    "gulp-less": "~1.2.3"
+    "gulp-less": "~1.2.3",
+    "lingon": "~0.8.2",
+    "lingon-watch": "0.0.1"
   }
 }
