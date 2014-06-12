@@ -1,10 +1,11 @@
 # css-loaders
 
-a project to quickly prototype css loaders
+A collection of loaders animated with css
 
-* Loader 1 demo: http://codepen.io/javoire/pen/nkrGc/
-* Loader 2 demo: http://codepen.io/javoire/pen/Gbidq
+![](http://i.imgur.com/Uym0RmQ.gif)
 
+<!--- * Loader 1 demo: http://codepen.io/javoire/pen/nkrGc/
+--->
 ## Install
 
 ```
