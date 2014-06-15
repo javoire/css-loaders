@@ -2,6 +2,8 @@
 
 A collection of loaders animated with css
 
+* Loader 2:
+
 ![](http://i.imgur.com/Uym0RmQ.gif)
 
 <!--- * Loader 1 demo: http://codepen.io/javoire/pen/nkrGc/
